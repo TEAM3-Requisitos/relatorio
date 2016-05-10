@@ -1,0 +1,25 @@
+\documentclass[12pt,openright,twoside,a4paper,english,french,spanish]{abntex2}
+
+\input{fixos/pacotes}
+\input{fixos/comandos}
+\input{fixos/novosComandos}
+\input{editaveis/informacoes}
+\input{fixos/informacoes}
+\input{fixos/setup}
+
+\begin{document}
+
+\frenchspacing
+\imprimircapa
+\imprimirfolhaderosto* {}
+\input{fixos/listasAutomaticas}
+\input{editaveis/abreviaturas}
+\input{fixos/indiceAutomatico}
+\input{editaveis/conteudo}
+\textual
+\bookmarksetup{startatroot}
+\postextual
+\bibliography{bibliografia}
+\printindex
+
+\end{document}
